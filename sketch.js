@@ -32,7 +32,7 @@ function draw() {
 
   fill(0); 
   textSize(72);
-  text("28", 100,100);
+  text("27", 100,100);
   
   if(spr.overlap(spr1)){
   	clear();
@@ -43,7 +43,7 @@ function draw() {
   	text("CORRECT!", 700,300);
   	spr.setSpeed(0,0);
   	noLoop();
-  	createA('https://github.com/gkrajay/awd', 'Click here to Proceed', 800,300);
+  	createA('https://gkrajay.github.io/awd/', 'Click here to Proceed', 800,300);
   }
   
   fill(0); 
