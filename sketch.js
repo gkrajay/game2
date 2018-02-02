@@ -32,7 +32,7 @@ function draw() {
 
   fill(0); 
   textSize(72);
-  text("28", 100,100);
+  text("27", 100,100);
   
   if(spr.overlap(spr1)){
   	clear();
