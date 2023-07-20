@@ -33,6 +33,11 @@ function draw() {
   fill(0); 
   textSize(72);
   text("27", 100,100);
+  f(mouseIsPressed){
+  	var s = createSprite(mouseX, mouseY, 30, 30);	
+  	s.velocity.x = random(-5, 5);
+   s.velocity.y = random(-5, 5);
+  }
   
   if(spr.overlap(spr1)){
   	clear();
